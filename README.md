@@ -1,5 +1,49 @@
-# BIMSA
-I commenced the BIMSA Mathematics and Artificial Intelligence program on November 14, 2025. This repository documents my academic progress and daily life since the program's commencement. I extend my gratitude to Beijing Institute of Mathematical Science and Application for their support and assistance.
+# BIMSA / 雁栖湖项目非官方学习指南与知识库
 
-本人于2025年11月14日开始攻读BIMSA数学与人工智能项目。本资料库记录了我自项目开始以来的学业进展和日常生活。在此，我谨向北京雁栖湖应用数学研究院表示衷心的感谢，感谢他们给予的支持与帮助。
-本人能力有限，本仓库内容如有疏漏，还请谅解，希望本项目能够有所帮助。
+## 项目定位
+本仓库定位为 **BIMSA / 雁栖湖数学与 AI 学习生存指南**，目标是逐步建设一个结构化、可持续维护的开源资料库，服务于课程学习、研究训练与学术成长。
+
+当前版本处于从“个人资料归档”向“知识库化组织”过渡阶段：
+- 保留历史资料原貌，避免一次性大迁移造成信息丢失。
+- 先搭建统一目录与模板规范，再分批迁移和清洗旧内容。
+
+## 适用对象
+- BIMSA 项目新生
+- 在读学生
+- 准备进入数学 / AI 方向学习的同学
+- 希望系统整理课程与研究资料的学习者
+
+## 内容导航
+- 生存与学习方法：`docs/survival-guide/`
+- 课程知识库：`docs/courses/`
+- 科研与写作：`docs/research/`
+- 工具使用指南：`docs/tools/`
+- 生活与自我管理：`docs/lifestyle/`
+- 模板与贡献规范：`templates/`、`CONTRIBUTING.md`
+- 历史资料归档区：`archive/`（后续按阶段迁入）
+
+## 如何使用本仓库
+1. 从 `docs/survival-guide/` 开始，了解学习节奏与常见问题。
+2. 进入对应课程目录（如 `docs/courses/machine-learning/`），按 `notes/`、`assignments/`、`exams/`、`resources/` 分类查阅。
+3. 使用 `templates/` 下模板撰写新笔记、课程页与论文阅读记录。
+4. 提交前参考 `CONTRIBUTING.md`，保持命名与结构一致。
+
+## 如何贡献
+欢迎提交：
+- 课程笔记与勘误
+- 作业/考试复盘（请脱敏处理）
+- 学习方法与经验总结
+- 科研工具链与写作流程改进建议
+
+贡献流程与规范请见：`CONTRIBUTING.md`。
+
+## 维护原则
+- 结构先行：优先维护目录一致性与可检索性。
+- 渐进迁移：旧资料分批整理，不做一次性大规模重命名。
+- 内容可追溯：重要调整记录在 `CHANGELOG.md`。
+- 注重边界：不上传涉及隐私、受限传播或版权风险的内容。
+
+## 免责声明
+本仓库为 **非官方资料库**，内容仅供学习交流与个人经验参考，不代表 BIMSA 或任何官方机构立场。
+
+本项目在组织思路上参考了高校“生存指南”类知识整理范式（如清华大学贵系生存指南的公共经验），但不复制其原文或具体内容。
