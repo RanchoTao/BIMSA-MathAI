@@ -1,0 +1,53 @@
+:root {
+  --md-text-font: "Inter", "Noto Sans SC", system-ui, sans-serif;
+}
+
+.md-grid {
+  max-width: 78rem;
+}
+
+.md-typeset {
+  line-height: 1.75;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  margin-top: 1.8em;
+}
+
+.md-typeset img {
+  max-width: 100%;
+  height: auto;
+}
+
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+.md-typeset__table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  min-width: 36rem;
+}
+
+@media screen and (max-width: 44.9844em) {
+  .md-typeset {
+    line-height: 1.65;
+  }
+
+  .md-typeset .grid.cards > ul > li,
+  .md-typeset .grid.cards > ol > li {
+    padding: 1rem;
+  }
+}

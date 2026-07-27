@@ -1,0 +1,100 @@
+site_name: BIMSA MathAI Wiki
+site_description: 面向 BIMSA 数学与人工智能项目学生的非官方开放知识库
+site_url: https://ranchotao.github.io/BIMSA-MathAI/
+repo_url: https://github.com/RanchoTao/BIMSA-MathAI
+repo_name: RanchoTao/BIMSA-MathAI
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2026 BIMSA MathAI Wiki 贡献者 · 非官方项目，与 BIMSA 官方无隶属关系
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      timezone: Etc/UTC
+      locale: zh
+      fallback_to_build_date: true
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RanchoTao/BIMSA-MathAI
+      name: GitHub 仓库
+  generator: false
+
+nav:
+  - 首页: index.md
+  - 新生指南: getting-started/index.md
+  - 生存指南: survival-guide/index.md
+  - 课程:
+      - courses/index.md
+      - 现有资料索引: courses/resources.md
+  - 科研: research/index.md
+  - 工具: tools/index.md
+  - 学习与生活: lifestyle/index.md
+  - 关于:
+      - about/index.md
+      - 参与贡献: about/contributing.md
+      - 免责声明: about/disclaimer.md
