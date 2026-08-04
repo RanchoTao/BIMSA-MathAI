@@ -1,49 +1,43 @@
-# BIMSA
+# BIMSA MathAI Wiki
 
-## 项目定位
-**BIMSA-MathAI**试图仿照[清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT)构建一个结构化、可持续维护的开源资料库，服务于课程学习、研究训练与学术成长。
+面向 BIMSA 数学与人工智能项目学习者的非官方开放知识库，以 MkDocs Material 将 Markdown 内容构建为可搜索的网页书。历史课程附件继续保留在原有学期目录中，网站通过索引渐进整理，不做破坏性迁移。
 
-当前版本处于从“个人资料归档”向“知识库化组织”过渡阶段：
-- 保留历史资料原貌，避免一次性大迁移造成信息丢失。
-- 先搭建统一目录与模板规范，再分批迁移和清洗旧内容。
+> **非官方声明：**本项目由社区维护，与 BIMSA 官方无隶属或授权关系。培养方案、课程安排与考核要求请以官方信息为准。
 
-## 适用对象
-- BIMSA 项目新生
-- 在读学生
-- 准备进入数学 / AI 方向学习的同学
-- 希望系统整理课程与研究资料的学习者
+## 网站
 
-## 内容导航
-- 生存与学习方法：`docs/survival-guide/`
-- 课程知识库：`docs/courses/`
-- 科研与写作：`docs/research/`
-- 工具使用指南：`docs/tools/`
-- 生活与自我管理：`docs/lifestyle/`
-- 模板与贡献规范：`templates/`、`CONTRIBUTING.md`
-- 历史资料归档区：`archive/`（后续按阶段迁入）
+- GitHub Pages：<https://ranchotao.github.io/BIMSA-MathAI/>
+- 源代码与反馈：<https://github.com/RanchoTao/BIMSA-MathAI>
 
-## 如何使用本仓库
-1. 从 `docs/survival-guide/` 开始，了解学习节奏与常见问题。
-2. 进入对应课程目录（如 `docs/courses/machine-learning/`），按 `notes/`、`assignments/`、`exams/`、`resources/` 分类查阅。
-3. 使用 `templates/` 下模板撰写新笔记、课程页与论文阅读记录。
-4. 提交前参考 `CONTRIBUTING.md`，保持命名与结构一致。
+未来绑定自定义域名时，只需在 Pages 中配置域名，并同步修改 `mkdocs.yml` 的 `site_url`（以及按需添加 `docs/CNAME`）。
 
-## 如何贡献
-欢迎提交：
-- 课程笔记与勘误
-- 作业/考试复盘（请脱敏处理）
-- 学习方法与经验总结
-- 科研工具链与写作流程改进建议
+## 本地运行
 
-贡献流程与规范请见：`CONTRIBUTING.md`。
+需要 Python 3.10 或更高版本：
 
-## 维护原则
-- 结构先行：优先维护目录一致性与可检索性。
-- 渐进迁移：旧资料分批整理，不做一次性大规模重命名。
-- 内容可追溯：重要调整记录在 `CHANGELOG.md`。
-- 注重边界：不上传涉及隐私、受限传播或版权风险的内容。
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+mkdocs serve
+```
 
-## 免责声明
-本仓库为 **非官方资料库**，内容仅供学习交流与个人经验参考，不代表 BIMSA 或任何官方机构立场。
+浏览器访问终端显示的本地地址。提交前请严格构建：
 
-本项目在组织思路上参考了其他高校“课程攻略”类知识整理范式，但不复制其原文或具体内容。
+```bash
+mkdocs build --strict
+```
+
+## 内容结构
+
+- `docs/`：网页正文，包括新生、生存、课程、科研、工具、生活和关于板块。
+- `docs/courses/resources.md`：历史课程附件的网页索引。
+- `2025秋/` 至 `2028春/`：原始学期资料，暂不批量移动或直接纳入网站导航。
+- `templates/`：新增结构化内容时使用的模板。
+- `mkdocs.yml`：主题、插件和站点导航配置。
+
+## 贡献
+
+欢迎补充经过整理的课程笔记、学习经验、研究流程与工具教程。请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，使用课程模板，并确保来源、隐私、版权和课程规则允许公开。修改后通过 Pull Request 提交。
+
+本仓库代码与原创文档按 [MIT License](LICENSE) 提供；已有第三方附件仍遵循各自权利人的许可，MIT 许可不自动覆盖这些材料。
