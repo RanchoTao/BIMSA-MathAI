@@ -9,6 +9,9 @@ copyright: Copyright &copy; 2026 BIMSA MathAI Wiki 贡献者 · 非官方项目�
 theme:
   name: material
   language: zh
+  icon:
+    logo: material/function-variant
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -26,15 +29,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: blue
       toggle:
         icon: material/brightness-7
         name: 切换到深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: 切换到浅色模式
@@ -64,6 +67,9 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -96,5 +102,6 @@ nav:
   - 学习与生活: lifestyle/index.md
   - 关于:
       - about/index.md
+      - 内容审计: about/content-audit.md
       - 参与贡献: about/contributing.md
       - 免责声明: about/disclaimer.md
