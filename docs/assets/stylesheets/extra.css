@@ -7,7 +7,6 @@
   --bimsa-radius: 0.85rem;
   --bimsa-blur: 18px;
   --bimsa-content-width: 80rem;
-  --bimsa-home-content-width: 90rem;
 }
 
 [data-md-color-scheme="default"] {
@@ -61,14 +60,6 @@ body,
   max-width: var(--bimsa-content-width);
 }
 
-/* The homepage needs the left navigation plus enough article width for 3 x 2 cards. */
-.md-main__inner:has(.bimsa-hero) {
-  max-width: var(--bimsa-home-content-width);
-}
-
-.md-main__inner:has(.bimsa-hero) .md-sidebar--secondary {
-  display: none;
-}
 
 .md-typeset {
   color: var(--bimsa-text);
@@ -406,17 +397,40 @@ body,
 .bimsa-card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-auto-rows: 1fr;
   gap: 1rem;
-  align-items: stretch;
   margin: 1rem 0 2.5rem;
+}
+
+.bimsa-home-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+  margin: 1.5rem 0 2rem;
+  align-items: stretch;
+}
+
+.bimsa-home-card-grid > * {
+  min-width: 0;
+  height: 100%;
+  margin: 0;
+}
+
+.bimsa-home-card-grid > p {
+  display: contents;
+}
+
+.bimsa-home-card-grid .bimsa-card {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .md-typeset .bimsa-card {
   display: flex;
   flex-direction: column;
   min-height: 12rem;
-  height: 100%;
   padding: 1.2rem;
   color: var(--bimsa-text);
   background: var(--bimsa-surface-bg);
@@ -502,7 +516,7 @@ body,
 }
 
 /* Responsive collapse: Material controls navigation drawers below desktop. */
-@media screen and (max-width: 62.5rem) {
+@media screen and (max-width: 60rem) {
   .bimsa-hero {
     grid-template-columns: 1fr;
     min-height: auto;
@@ -515,9 +529,13 @@ body,
   .bimsa-card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .bimsa-home-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
-@media screen and (max-width: 45rem) {
+@media screen and (max-width: 44.9844em) {
   .md-typeset {
     font-size: 0.78rem;
     line-height: 1.7;
@@ -556,6 +574,12 @@ body,
 
   .bimsa-card-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  .bimsa-home-card-grid {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
