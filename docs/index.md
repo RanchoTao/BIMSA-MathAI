@@ -2,7 +2,7 @@
   <div class="bimsa-hero__content">
     <span class="bimsa-eyebrow">Open Knowledge Base · Community Maintained</span>
     <h1 id="hero-title">BIMSA MathAI Wiki</h1>
-    <p class="bimsa-hero__lead">数学 · 计算机 · 人工智能</p>
+    <p class="bimsa-hero__lead">面向数学、人工智能与科研训练的开放网页书</p>
     <p class="bimsa-hero__copy">把分散的课程资料、学习经验与研究工具整理成可搜索、可修订、可长期维护的知识路径。</p>
     <div class="bimsa-hero__actions">
       <a class="md-button md-button--primary" href="getting-started/">开始阅读</a>

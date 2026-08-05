@@ -13,6 +13,8 @@ theme:
     logo: material/function-variant
     repo: fontawesome/brands/github
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
     - navigation.top
@@ -41,9 +43,6 @@ theme:
         name: 切换到浅色模式
 
 plugins:
-  - gen-files:
-      scripts:
-        - gen_pages.py
   - search:
       lang:
         - zh
@@ -96,62 +95,13 @@ nav:
   - 新生指南: getting-started/index.md
   - 生存指南: survival-guide/index.md
   - 课程:
-      - 课程总览: courses/index.md
+      - courses/index.md
       - 现有资料索引: courses/resources.md
-      - "程序设计": courses/2025-fall/programming.md
-      - "个人自选": courses/2025-fall/personal-electives.md
-      - "数学分析": courses/2025-fall/mathematical-analysis.md
-      - "机器学习": courses/2025-fall/machine-learning.md
-      - "毛泽东思想和中国特色社会主义理论体系概论": courses/2025-fall/mao-zedong-thought.md
-      - "物理": courses/2025-fall/physics.md
-      - "羽毛球": courses/2025-fall/badminton.md
-      - "英语演讲": courses/2025-fall/english-speech.md
-      - "马克思主义基本原理": courses/2025-fall/marxism.md
-      - "大学体育": courses/2026-spring/physical-education.md
-      - "大学物理": courses/2026-spring/college-physics.md
-      - "应用概率与数理统计": courses/2026-spring/probability-statistics.md
-      - "数学分析": courses/2026-spring/mathematical-analysis.md
-      - "数学建模": courses/2026-spring/mathematical-modeling.md
-      - "数据挖掘": courses/2026-spring/data-mining.md
-      - "数据结构与算法分析": courses/2026-spring/data-structures-algorithms.md
-      - "机器学习": courses/2026-spring/machine-learning.md
-      - "离散数学": courses/2026-spring/discrete-mathematics.md
-      - "复变函数": courses/2026-fall/complex-analysis.md
-      - "实变函数": courses/2026-fall/real-analysis.md
-      - "数字信号处理": courses/2026-fall/digital-signal-processing.md
-      - "数据库原理与应用": courses/2026-fall/database-systems.md
-      - "时间序列模型": courses/2026-fall/time-series.md
-      - "深度学习": courses/2026-fall/deep-learning.md
-      - "计算机组成原理": courses/2026-fall/computer-organization.md
-      - "随机过程": courses/2026-fall/stochastic-processes.md
-      - "高等代数": courses/2026-fall/advanced-algebra.md
-      - "图像处理与计算机视觉": courses/2027-spring/image-processing-computer-vision.md
-      - "图论": courses/2027-spring/graph-theory.md
-      - "多元统计分析": courses/2027-spring/multivariate-statistics.md
-      - "拓扑学与应用": courses/2027-spring/topology.md
-      - "操作系统": courses/2027-spring/operating-systems.md
-      - "数字通信和计算机网络": courses/2027-spring/communications-networks.md
-      - "泛函分析": courses/2027-spring/functional-analysis.md
-      - "现代人工智能系统": courses/2027-spring/modern-ai-systems.md
-      - "自动控制原理": courses/2027-spring/automatic-control.md
-      - "自然语言处理": courses/2027-spring/natural-language-processing.md
-      - "计算机图形学": courses/2027-spring/computer-graphics.md
-      - "人工智能创业：从想法到产品": courses/2027-fall/ai-entrepreneurship.md
-      - "博弈论": courses/2027-fall/game-theory.md
-      - "机器学习中的优化算法": courses/2027-fall/optimization-for-machine-learning.md
-      - "科学素养与伦理": courses/2027-fall/scientific-literacy-ethics.md
-      - "高等概率论": courses/2027-fall/advanced-probability.md
-      - "创新创业讲座": courses/2028-spring/innovation-entrepreneurship.md
-      - "密码学": courses/2028-spring/cryptography.md
-      - "科技创业融资与股权设计": courses/2028-spring/startup-finance-equity.md
-      - "量子力学": courses/2028-spring/quantum-mechanics.md
-      - "高等数值分析": courses/2028-spring/advanced-numerical-analysis.md
-      - "高等数理统计": courses/2028-spring/advanced-mathematical-statistics.md
   - 科研: research/index.md
   - 工具: tools/index.md
   - 学习与生活: lifestyle/index.md
   - 关于:
-      - 关于本站: about/index.md
+      - about/index.md
       - 内容审计: about/content-audit.md
       - 参与贡献: about/contributing.md
       - 免责声明: about/disclaimer.md
