@@ -13,8 +13,6 @@ theme:
     logo: material/function-variant
     repo: fontawesome/brands/github
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
     - navigation.top
@@ -89,19 +87,3 @@ extra:
       link: https://github.com/RanchoTao/BIMSA-MathAI
       name: GitHub 仓库
   generator: false
-
-nav:
-  - 首页: index.md
-  - 新生指南: getting-started/index.md
-  - 生存指南: survival-guide/index.md
-  - 课程:
-      - courses/index.md
-      - 现有资料索引: courses/resources.md
-  - 科研: research/index.md
-  - 工具: tools/index.md
-  - 学习与生活: lifestyle/index.md
-  - 关于:
-      - about/index.md
-      - 内容审计: about/content-audit.md
-      - 参与贡献: about/contributing.md
-      - 免责声明: about/disclaimer.md
