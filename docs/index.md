@@ -27,7 +27,7 @@
 
 ## 探索知识库
 
-<div class="bimsa-card-grid" markdown>
+<div class="bimsa-home-card-grid" markdown>
 <a class="bimsa-card" href="getting-started/">
   <span class="bimsa-card__icon">:material-compass-outline:</span>
   <strong>新生指南</strong>
