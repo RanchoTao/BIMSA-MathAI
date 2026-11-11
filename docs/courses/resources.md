@@ -6,20 +6,20 @@
 
 | 课程 | 学期 | 已确认的资料范围 | 适合的使用方式 | 入口 |
 | --- | --- | --- | --- | --- |
-| 数学分析 | 2025 秋、2026 春 | 课程讲义 PDF、期末复习 PDF、作业图片 | 阅读讲义；复习材料与作业仅用于个人复盘 | [2025 秋](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90) · [2026 春](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90) |
-| 应用概率与数理统计 | 2026 春 | 作业 PDF 与图片 | 需要脱敏、核验传播范围后再整理 | [原目录](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E5%BA%94%E7%94%A8%E6%A6%82%E7%8E%87%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1) |
-| 离散数学 | 2026 春 | 9 份 PDF、作业 ZIP 与图片 | PDF 可作阅读入口；压缩包不在网页展开 | [原目录](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6) |
-| 数学建模 | 2026 春 | Python 代码、报告 PDF、PPT、ZIP | 代码需先检查依赖；项目材料需检查署名与隐私 | [原目录](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1) |
+| 数学分析 | 2025 秋、2026 春 | 课程讲义 PDF、期末复习 PDF | 阅读讲义；复习材料仅用于个人复盘 | [2025 秋](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90) · [2026 春](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90) |
+| 应用概率与数理统计 | 2026 春 | 暂无附件（含个人信息的作业已移除） | 等待脱敏后的笔记或复习材料 | [原目录](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E5%BA%94%E7%94%A8%E6%A6%82%E7%8E%87%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1) |
+| 离散数学 | 2026 春 | 9 份 PDF、作业 ZIP | PDF 可作阅读入口；压缩包不在网页展开 | [原目录](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6) |
+| 数学建模 | 2026 春 | Python 代码 | 代码需先检查依赖 | [原目录](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1) |
 
 ## 人工智能与数据
 
 | 课程 | 学期 | 已确认的资料范围 | 适合的使用方式 | 入口 |
 | --- | --- | --- | --- | --- |
-| 机器学习 | 2025 秋、2026 春 | 9 份专题 PDF、PPT、多个 Word 作业 | 专题 PDF 可逐步建立知识索引；作业需脱敏且不得作为答案库 | [2025 秋](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0) · [2026 春](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0) |
-| 数据挖掘 | 2026 春 | 5 个 Notebook、2 份 PDF、PPT、ZIP、Excel 与一份 Markdown | Notebook 需核验依赖与数据；现有 Markdown 含姓名，应先脱敏 | [原目录](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98) |
+| 机器学习 | 2025 秋、2026 春 | 9 份专题 PDF、PPT | 专题 PDF 可逐步建立知识索引 | [2025 秋](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0) · [2026 春](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0) |
+| 数据挖掘 | 2026 春 | 暂无附件（含个人信息的作业、项目与评分材料已移除） | 等待脱敏后的笔记；课程项目见 README 中的独立仓库 | [原目录](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98) |
 
-!!! warning "数据挖掘目录需优先审查"
-    文件名中存在个人姓名、日期和评分复核信息。它们只能作为历史附件候选；在完成隐私、课程规则和传播许可检查前，不转为公开网页正文。
+!!! note "隐私清理"
+    2026-11 已移除含姓名、学号、成绩、评分复核和证明信息的附件。新增资料请先脱敏，见[贡献指南](../about/contributing.md)。
 
 ## 计算机与建模
 

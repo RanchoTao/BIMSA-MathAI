@@ -11,13 +11,13 @@
 
 -   :material-chart-bell-curve-cumulative: **数学与概率**
 
-    数学分析、离散数学和应用概率统计已有讲义、复习材料、作业图片或 PDF。
+    数学分析和离散数学已有讲义、复习材料或 PDF。
 
     [:octicons-arrow-right-24: 查看附件用途索引](resources.md#数学与概率)
 
 -   :material-brain: **机器学习与数据**
 
-    机器学习与数据挖掘已有 PDF、Notebook、演示文稿和作业归档，公开前仍需逐项审查。
+    机器学习已有专题 PDF 与演示文稿；数据挖掘等课程等待脱敏后的笔记。
 
     [:octicons-arrow-right-24: 查看附件用途索引](resources.md#人工智能与数据)
 
@@ -35,28 +35,28 @@
 | 课程或专题 | 当前资料 | 文件类型 |
 | --- | --- | --- |
 | [Python](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/Python) | 有附件（1 项） | PDF × 1 |
-| [个人自选](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E4%B8%AA%E4%BA%BA%E8%87%AA%E9%80%89) | 有附件（3 项） | CSV × 1、Excel × 2 |
+| [个人自选](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E4%B8%AA%E4%BA%BA%E8%87%AA%E9%80%89) | 有附件（3 项） | Excel × 2、CSV × 1 |
 | [数学分析](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90) | 有附件（1 项） | PDF × 1 |
-| [机器学习](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0) | 有附件（18 项） | Word × 8、PDF × 9、PPT × 1 |
+| [机器学习](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0) | 有附件（10 项） | PDF × 9、PPT × 1 |
 | [毛泽东思想和中国特色社会主义理论体系概论](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E6%80%9D%E6%83%B3%E5%92%8C%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%90%86%E8%AE%BA%E4%BD%93%E7%B3%BB%E6%A6%82%E8%AE%BA) | 有附件（5 项） | 无扩展名 × 5 |
 | [物理](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E7%89%A9%E7%90%86) | 有附件（2 项） | PDF × 2 |
 | [羽毛球](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E7%BE%BD%E6%AF%9B%E7%90%83) | 仅目录说明 | — |
-| [英语演讲](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B2) | 有附件（16 项） | Word × 1、PDF × 3、图片 × 7、PPT × 1、图片 × 4 |
-| [马克思主义基本原理](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86) | 有附件（2 项） | Word × 1、PDF × 1 |
+| [英语演讲](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E8%8B%B1%E8%AF%AD%E6%BC%94%E8%AE%B2) | 有附件（15 项） | PDF × 3、PPT × 1、图片 × 11 |
+| [马克思主义基本原理](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2025%E7%A7%8B/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86) | 有附件（1 项） | PDF × 1 |
 
 ## 2026春
 
 | 课程或专题 | 当前资料 | 文件类型 |
 | --- | --- | --- |
 | [大学体育](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E5%A4%A7%E5%AD%A6%E4%BD%93%E8%82%B2) | 仅目录说明 | — |
-| [大学物理](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86) | 有附件（4 项） | 图片 × 3、无扩展名 × 1 |
-| [应用概率与数理统计](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E5%BA%94%E7%94%A8%E6%A6%82%E7%8E%87%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1) | 有附件（9 项） | 图片 × 7、PDF × 2 |
-| [数学分析](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90) | 有附件（39 项） | 图片 × 36、PDF × 2、无扩展名 × 1 |
-| [数学建模](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1) | 有附件（13 项） | PDF × 3、PPT × 1、Python × 2、ZIP × 1、无扩展名 × 6 |
-| [数据挖掘](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98) | 有附件（22 项） | Notebook × 5、MD × 1、PDF × 2、PPT × 1、Excel × 1、ZIP × 6、无扩展名 × 6 |
+| [大学物理](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86) | 有附件（1 项） | 无扩展名 × 1 |
+| [应用概率与数理统计](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E5%BA%94%E7%94%A8%E6%A6%82%E7%8E%87%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1) | 仅目录说明 | — |
+| [数学分析](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90) | 有附件（3 项） | PDF × 2、无扩展名 × 1 |
+| [数学建模](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1) | 有附件（9 项） | Python × 2、无扩展名 × 7 |
+| [数据挖掘](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98) | 有附件（6 项） | 无扩展名 × 6 |
 | [数据结构与算法分析](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90) | 仅目录说明 | — |
-| [机器学习](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0) | 有附件（5 项） | Word × 5 |
-| [离散数学](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6) | 有附件（25 项） | 图片 × 6、PDF × 9、ZIP × 9、无扩展名 × 1 |
+| [机器学习](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0) | 仅目录说明 | — |
+| [离散数学](https://github.com/RanchoTao/BIMSA-MathAI/tree/main/2026%E6%98%A5/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6) | 有附件（19 项） | PDF × 9、ZIP × 9、无扩展名 × 1 |
 
 ## 2026秋
 
